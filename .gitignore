@@ -1,0 +1,31 @@
+# Cache, logs, local libs and tmp files
+__pycache__
+*.pyc
++Temp/*
+.DS_Store
+node_modules/*
+*~
+*.log*
+*.lock
+# Media and static
+static/*
+media/*
+!media/_sample_files/
+Thumbs.db
+# Local settings
+**/settings/local.py
+local_settings.*
+# IDE settings
+.idea/
+*.sublime-*
+# Environment
+env/
+.env/
+# Other
+.ar/
+ar/
+*.sql
+files/
+tmp/*
+whoosh_index/*
+venv/
