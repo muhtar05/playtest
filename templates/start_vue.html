@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VueJs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"></script>
+    <style>
+        #app {
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+  <label for="name">Name:</label>
+  <input id="name" type="text" v-model="name" />
+  <p>{{ name }}</p>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el: "#app",
+        data: {
+            name: ''
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор Ремонта</title>
+</head>
+<body>
+    <h1>Калькулятор Ремонта</h1>
+
+    {% for q_c in questions %}
+        <h3>{{ q_c }}</h3>
+        {% for choice in q_c.choices.all %}
+            <span>{{ choice }}</span>
+        {% endfor %}
+
+    {% endfor %}
+
+
+</body>
+</html>

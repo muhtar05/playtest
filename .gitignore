@@ -26,6 +26,10 @@ env/
 ar/
 *.sql
 files/
+testfiles/
+newdispath/
 tmp/*
 whoosh_index/*
 venv/
+history.txt
+playgroundapp/
